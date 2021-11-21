@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 source launch_container.sh $PATH_TO_STORAGE/ssd/viodata/dataset/train/2805-3319 $PATH_TO_STORAGE/ssd/viodata/slowfast-feature/rate-2/p4

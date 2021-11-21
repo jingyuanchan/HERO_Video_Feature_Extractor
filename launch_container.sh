@@ -8,7 +8,7 @@ if [ -z $CUDA_VISIBLE_DEVICES ]; then
     CUDA_VISIBLE_DEVICES='all'
 fi
 
-docker run --gpus '"'device=$CUDA_VISIBLE_DEVICES'"' --ipc=host --network=host --rm -it \
+sudo docker run --gpus '"'device=$CUDA_VISIBLE_DEVICES'"' --ipc=host --network=host --rm -it \
     --mount src=$(pwd),dst=/src,type=bind \
     --mount src=$VID_DIR,dst=/video,type=bind,readonly \
     --mount src=$OUT_DIR,dst=/output,type=bind \
