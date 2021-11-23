@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=1 source launch_container.sh $PATH_TO_STORAGE/ssd/viodata/dataset/train $PATH_TO_STORAGE/ssd/viodata/slowfast-feature/rate-1.5/
+CUDA_VISIBLE_DEVICES=1 source launch_container.sh $PATH_TO_STORAGE/ssd/viodata/dataset/train $PATH_TO_STORAGE/ssd/viodata/slowfast-feature/rate-2d3/
